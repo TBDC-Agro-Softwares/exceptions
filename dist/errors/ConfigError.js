@@ -1,0 +1,1 @@
+"use strict";var e;Object.defineProperty(exports,"__esModule",{value:!0}),Object.defineProperty(exports,"ConfigError",{enumerable:!0,get:function(){return r}});const t=(e=require("./CustomError"))&&e.__esModule?e:{default:e};class r extends t.default{constructor(e){super(e,500),this.name=new.target.name,Object.setPrototypeOf(this,new.target.prototype)}}
